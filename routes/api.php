@@ -45,7 +45,7 @@ Route::get('books/search/{searchTerm}','BookController@findBySearchTerm');
 
 
 Route::get('ratings/{book_id}','RatingController@index');
-Route::delete('rating/{id}','RatingController@delete');
+//Route::delete('rating/{id}','RatingController@delete');
 
 Route::get('orders','OrderController@index');
 
